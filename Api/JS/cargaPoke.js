@@ -87,7 +87,7 @@ function busqueda(){
 	.then((response) => response.json())
 	.then(data => mostrar(data));
 	} 
-	 qcatch(error){
+	 catch(error){
 
 		alert("No encontramos ese pokemon");
 	}
