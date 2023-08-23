@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="CSS/styles.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pokedex Web</title>
+</head>
+<body>
+
+<div class="header">
+		<div class="searchBox">
+			
+			<input type="text" id="search" class="busqueda" placeholder="Busca un Pokemon">
+			<button class="btn-search" onclick="busqueda()"></button>
+			
+		</div>
+		<div class="logo">
+			<a href="index.html"> <h1 class="title">Pokedex Web</h1></a>
+			<img class="logoImg" src="IMG/pokeball.png">
+		</div>
+		<nav>
+			
+		</nav>
+
+</div>
+
+<div id="information-box" class="information-box-hidden">
+	
+	<div id="leftSection">
+		<div id="mainImg">
+		<img  src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/132.svg">
+		</div>
+		<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/132.svg">
+		<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/132.svg">
+	</div>
+	<div class="rightSection">
+
+		<span id="pokeTitle">Ditto</span>
+
+		<div id="types">
+		 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 		
+		</div> 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	
+		
+		
+	</div>
+<div id="X" onclick="esconder()">
+		X
+	</div>
+</div>
+
+<div class="main-container">
+	<div id="catalogue-container">
+		
+		
+
+	</div>
+
+</div>
+
+
+
+</body>
+<script type="text/javascript" src="JS/cargaPoke.js"></script>
+</html>
