@@ -86,7 +86,8 @@ function busqueda(){
 	fetch(api+buscar.toLowerCase())
 	.then((response) => response.json())
 	.then(data => mostrar(data));
-	} catch(error){
+	} 
+	 qcatch(error){
 
 		alert("No encontramos ese pokemon");
 	}
